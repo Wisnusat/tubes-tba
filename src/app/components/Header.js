@@ -3,19 +3,19 @@ import { useState } from "react";
 
 const anggota_kelompok = [
   {
-    nama: "Zuhair Nashif Abdurrohim",
-    nim: "1301223102",
-    foto: "https://media.licdn.com/dms/image/D5603AQFoB9flRt3b_w/profile-displayphoto-shrink_800_800/0/1701776672180?e=2147483647&v=beta&t=AlElCryepDPKixrDladwng7xWjAyxgR75319jN9deK4",
+    nama: "Wisnu Satrio Agung",
+    nim: "1301223456",
+    foto: "/wisnu.jpg",
   },
   {
-    nama: "Maulana Cahya Magista",
-    nim: "1301223240",
-    foto: "https://media.licdn.com/dms/image/D5603AQHCRmF4PjkaVQ/profile-displayphoto-shrink_800_800/0/1702109430676?e=2147483647&v=beta&t=C1QKO0b3pxBpql8hvScvSJU2aor0zEOD2wYrlgR9A00",
+    nama: "Muhammad Alvito N",
+    nim: "1301223342",
+    foto: "/pito.jpg",
   },
   {
-    nama: "Gagas Surya Laksana",
-    nim: "1301223164",
-    foto: "https://media.licdn.com/dms/image/D5603AQFv0PgBqyFA6g/profile-displayphoto-shrink_800_800/0/1704083603848?e=2147483647&v=beta&t=giooGgHt8HHTtRqI9UujA9lL2091zPURz8Fi2j1hh40",
+    nama: "Bintang Rizky",
+    nim: "1301223104",
+    foto: "/bintang.jpg",
   },
 ];
 
@@ -41,7 +41,7 @@ export default function Header() {
               className="underline decoration-sky-500 decoration-wavy hover:decoration-solid hover:cursor-pointer"
               onClick={() => handleClick()}
             >
-              Kelompok 11
+              Kelompok Pepek
             </a>{" "}
             👈 <span className="text-sm">click me!</span>
           </p>
